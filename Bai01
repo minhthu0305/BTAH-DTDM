@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void){
+    // Your code here!
+    int i;
+
+  // Lặp từ 10 đến 99 (bao gồm cả 99)
+  for (i = 10; i <= 99; i++) {
+    // Kiểm tra nếu i chia hết cho 7
+    if (i % 7 == 0) {
+      printf("%d ", i);
+    }
+  }
+
+  return 0;
+    
+}
